@@ -22,7 +22,7 @@
     color: #FFF;
     border: none;
   /* color: white; */
-  padding: 15px 30px;
+  padding: 15px ;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -38,11 +38,15 @@
   }
   
   /* Responsive columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .column {
       width: 100%;
       display: block;
       margin-bottom: 20px;
+    }
+    bottom{
+      width: 50%;
+      
     }
   }
   
